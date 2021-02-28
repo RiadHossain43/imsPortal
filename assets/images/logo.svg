@@ -1,39 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="169px" height="52px" viewBox="0 0 169 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 180x</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="0%" y1="-52.2404969%" x2="152.574255%" y2="173.560518%" id="linearGradient-1">
-            <stop stop-color="#FB834C" offset="0%"></stop>
-            <stop stop-color="#FFD2C8" offset="100%"></stop>
-        </linearGradient>
-        <circle id="path-2" cx="26" cy="26" r="26"></circle>
-        <linearGradient x1="50%" y1="42.9592075%" x2="61.5867472%" y2="61.2811651%" id="linearGradient-4">
-            <stop stop-color="#2E51E5" offset="0%"></stop>
-            <stop stop-color="#101A8E" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Saas-Landing-Page" transform="translate(-265.000000, -25.000000)">
-            <g id="Group-18" transform="translate(265.000000, 25.000000)">
-                <g id="Group-3" transform="translate(67.000000, 10.000000)" fill="#FFFFFF" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="25" font-weight="bold">
-                    <g id="Group-52">
-                        <text id="SassPack">
-                            <tspan x="0" y="25">SassPack</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="S">
-                    <mask id="mask-3" fill="white">
-                        <use xlink:href="#path-2"></use>
-                    </mask>
-                    <use id="Mask-Copy-7" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
-                    <text fill="url(#linearGradient-4)" mask="url(#mask-3)" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="128.149996" font-weight="bold">
-                        <tspan x="-10" y="68">S</tspan>
-                    </text>
-                </g>
-            </g>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="159" height="52" viewBox="0 0 159 52">
+  <g id="Group_11" data-name="Group 11" transform="translate(-707 -752)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="159" height="52" transform="translate(707 752)" fill="none"/>
+    <g id="Layer_x0020_1" transform="translate(748.316 753.248)">
+      <g id="_1915907218960" transform="translate(0 0)">
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="49.505" height="13.092" rx="6.546" transform="translate(48.549) rotate(90)" fill="#ffb901"/>
+        <path id="Path_1" data-name="Path 1" d="M9.254,49.505h9.889a3.182,3.182,0,0,0,2.622-1.7c.016-.056.035-.115.059-.176L25.939,36.62h9.776a4.345,4.345,0,0,0,3.809-2.488l3.139-8.1c.529-1.366-.335-2.486-1.9-2.486H30.829l5.646-15.1C38.1,4.088,42.992.586,47.385.068A3.654,3.654,0,0,0,46.68,0H35.535c-4.641,0-10.3,3.723-12.129,8.446l-5.862,15.1H7.1A4.364,4.364,0,0,0,3.3,26.028l-3.142,8.1c-.525,1.361.33,2.488,1.9,2.488H12.468L8.2,47.628c-.408,1.05.023,1.877,1.057,1.877Z" transform="translate(0 0)" fill="#4385f6" fill-rule="evenodd"/>
+        <path id="Path_2" data-name="Path 2" d="M196.181,0h-9.889a3.187,3.187,0,0,0-2.622,1.7c-.016.059-.037.117-.059.178L168.96,41.062c-1.628,4.355-6.518,7.86-10.91,8.378a3.655,3.655,0,0,0,.705.066H169.9c4.643,0,10.3-3.72,12.131-8.443L197.24,1.879C197.645.829,197.214,0,196.181,0Z" transform="translate(-121.023 0)" fill="#ea4436" fill-rule="evenodd"/>
+      </g>
     </g>
+  </g>
 </svg>
