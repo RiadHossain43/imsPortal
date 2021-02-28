@@ -1,0 +1,300 @@
+
+$main-color-deep: #4B22B9;
+$main-color-light: #8E53E4;
+$main-color: #8E53E4; //main-color-light
+$main-color-2-light:  #FF9FB6;
+$main-color-2-deep: #FD71B0;
+
+
+.btn{
+    &.btn-fill {
+         background-color: $main-color-2-deep;     
+         background: $main-color-2-deep;
+         background: -moz-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+         background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-2-light), color-stop(100%, $main-color-2-deep));
+         background: -webkit-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+         background: -o-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+         background: -ms-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+         background: linear-gradient(to right, $main-color-2-light 0%, $main-color-2-deep 100%);
+         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$main-color-2-light', endColorstr='$main-color-2-light', GradientType=1 );
+ 
+         &:focus {
+             background: $main-color-2-deep;
+             background: -moz-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+             background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-2-light), color-stop(100%, $main-color-2-deep));
+             background: -webkit-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+             background: -o-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+             background: -ms-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+             background: linear-gradient(to right, $main-color-2-light 0%, $main-color-2-deep 100%);
+             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$main-color-2-light', endColorstr='$main-color-2-light', GradientType=1 );
+         }
+         &:hover {
+             background: $main-color-2-deep;
+             background: -moz-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+             background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-2-light), color-stop(100%, $main-color-2-deep));
+             background: -webkit-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+             background: -o-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+             background: -ms-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+             background: linear-gradient(to right, $main-color-2-light 0%, $main-color-2-deep 100%);
+             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$main-color-2-light', endColorstr='$main-color-2-light', GradientType=1 );
+         }
+         
+         &:hover{
+             background: darken($main-color-2-deep, 2%); 
+         }
+    }
+}
+
+.mh-header {
+    &.nav-strict {
+        background: $main-color-deep;
+        background: -moz-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-light), color-stop(100%, $main-color-deep));
+        background: -webkit-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+        background: -o-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+        background: -ms-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+        background: linear-gradient(to right, $main-color-light 0%, $main-color-deep 100%);
+    }
+    .navbar-nav {
+        li {
+            &.active {
+                a {
+                    color: $main-color-2-light;
+                }
+            }
+            a {                             
+                &:hover {
+                    color: $main-color-2-light;
+                }
+            }
+        }
+    }
+}
+.mh-header-bg {
+    background-color: $main-color;
+}
+// Carousel 
+.ft-carousel {
+
+    .owl-next {
+        border: 0px solid $main-color;
+    }
+    .owl-prev {
+        border: 0px solid $main-color;
+    }
+}
+
+.ev-home {
+    background: $main-color-deep;
+    background: -moz-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-light), color-stop(100%, $main-color-deep));
+    background: -webkit-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -o-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -ms-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: linear-gradient(to right, $main-color-light 0%, $main-color-deep 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$main-color-light', endColorstr='$main-color-light', GradientType=1 );
+
+    .header-overlay-img {    
+        &.header-overlay-2 {
+            background: $main-color-deep;
+            background: -moz-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-light), color-stop(100%, $main-color-deep));
+            background: -webkit-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+            background: -o-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+            background: -ms-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+            background: linear-gradient(to right, $main-color-light 0%, $main-color-deep 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$main-color-light', endColorstr='$main-color-light', GradientType=1 );
+        }
+    }
+}
+.ev-blog-page .header-overlay-3 {
+    background: $main-color-deep;
+    background: -moz-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-light), color-stop(100%, $main-color-deep));
+    background: -webkit-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -o-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -ms-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: linear-gradient(to right, $main-color-light 0%, $main-color-deep 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$main-color-light', endColorstr='$main-color-light', GradientType=1 );
+}
+.ev-content-title {
+    span {
+        color: $main-color-2-deep;
+    }
+}
+.why-choose-overlay-img {
+    background: $main-color-deep;
+    background: -moz-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-light), color-stop(100%, $main-color-deep));
+    background: -webkit-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -o-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -ms-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: linear-gradient(to right, $main-color-light 0%, $main-color-deep 100%);
+}
+.testimonial-overlay-img {
+    background: $main-color-deep;
+    background: -moz-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-light), color-stop(100%, $main-color-deep));
+    background: -webkit-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -o-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -ms-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: linear-gradient(to right, $main-color-light 0%, $main-color-deep 100%);
+}
+.footer-overlay-img {
+    background: $main-color-deep;
+    background: -moz-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-light), color-stop(100%, $main-color-deep));
+    background: -webkit-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -o-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: -ms-linear-gradient(left, $main-color-light 0%, $main-color-deep 100%);
+    background: linear-gradient(to right, $main-color-light 0%, $main-color-deep 100%);
+}
+
+
+.lo-discover {
+    .lo-nav-tabs {
+        .nav-link {
+            &:hover {
+                background: $main-color-2-light;
+            }
+            &.active {
+                background: $main-color-2-light;
+            }
+        }
+    }
+}
+
+.ev-process {
+    .process-item {
+        .ev-img-inner {
+            .process-number {
+                background: $main-color-2-deep;
+                background: -moz-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-2-light), color-stop(100%, $main-color-2-deep));
+                background: -webkit-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+                background: -o-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+                background: -ms-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+                background: linear-gradient(to right, $main-color-2-light 0%, $main-color-2-deep 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$main-color-2-light', endColorstr='$main-color-2-light', GradientType=1 );
+            }
+        }   
+    }
+}
+
+
+.ev-testimonial {
+    .testimonial-inner {
+        .owl-next {
+            background: $main-color-2-deep;
+            background: -moz-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-2-light), color-stop(100%, $main-color-2-deep));
+            background: -webkit-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+            background: -o-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+            background: -ms-linear-gradient(left, $main-color-2-light 0%, $main-color-2-deep 100%);
+            background: linear-gradient(to right, $main-color-2-light 0%, $main-color-2-deep 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$main-color-2-light', endColorstr='$main-color-2-light', GradientType=1 );
+            border: 0px solid $main-color;
+        }
+        .owl-prev {
+            border: 0px solid $main-color;
+        }
+    }
+}
+
+
+.lo-pricing-plan {
+    .pricing-item {        
+        &.pricing-item-2  {
+            &.blue-bg {
+                background: $main-color-deep;
+                background: -moz-linear-gradient(top, $main-color-deep 0%, $main-color-light 100%);
+                background: -webkit-gradient(left top, left bottom, color-stop(0%, $main-color-deep), color-stop(100%, $main-color-light));
+                background: -webkit-linear-gradient(top, $main-color-deep 0%, $main-color-light 100%);
+                background: -o-linear-gradient(top, $main-color-deep 0%, $main-color-light 100%);
+                background: -ms-linear-gradient(top, $main-color-deep 0%, $main-color-light 100%);
+                background: linear-gradient(to bottom, $main-color-deep 0%, $main-color-light 100%);
+                .btn {
+                    color: $main-color-deep;
+                }
+            }
+        }
+    }
+}
+
+.ev-footer-links {
+    .footer-items {
+        ul {
+            li {
+                a {
+                    &:hover {
+                        color: $main-color-2-deep;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.cta {
+    .overlay-img {
+        background: $main-color;
+        background: -webkit-gradient(left top, right top, color-stop(0%, $main-color-light), color-stop(100%, $main-color-deep));
+        background: -webkit-gradient(linear, left top, right top, from($main-color-light), to($main-color-deep));
+        background: linear-gradient(to right, $main-color-light 0%, $main-color-deep 100%);
+    }
+}
+
+
+.featured-section-4{
+    .each-content-inner {
+        ul {
+            li {
+                .fa {
+
+                    &.fa-2 {
+                        background: $main-color-deep;
+                        background: -moz-linear-gradient(top, $main-color-deep 0%, $main-color-light 100%);
+                        background: -webkit-gradient(left top, left bottom, color-stop(0%, $main-color-deep), color-stop(100%, $main-color-light));
+                        background: -webkit-linear-gradient(top, $main-color-deep 0%, $main-color-light 100%);
+                        background: -o-linear-gradient(top, $main-color-deep 0%, $main-color-light 100%);
+                        background: -ms-linear-gradient(top, $main-color-deep 0%, $main-color-light 100%);
+                        background: linear-gradient(to bottom, $main-color-deep 0%, $main-color-light 100%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ev-blog-page {
+    .header-overlay-3 {
+        background-color: $main-color;
+    }
+}
+
+.blog-item {
+    h2 {
+        &:hover {
+            color: $main-color-deep;
+        }
+    }
+
+}
+
+
+/*
+|===================
+| BLOG SINGLE
+|===================
+*/
+
+  .blog-content blockquote {
+    color: $main-color-2-light;
+  }
+  .blog-tags .tags a:hover {
+    color: $main-color-2-light;
+  }
+  .comment a {
+    color: $main-color-2-light;
+  }

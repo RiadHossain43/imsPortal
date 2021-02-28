@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>bx-expand</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Saas-Landing-page" transform="translate(-876.000000, -1037.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-16" transform="translate(265.000000, 1005.000000)">
+                <g id="Group-15" transform="translate(579.000000, 0.000000)">
+                    <g id="Group-14">
+                        <g id="Group-7">
+                            <g id="Group">
+                                <g id="bx-expand" transform="translate(32.000000, 32.000000)">
+                                    <path d="M23.2961667,12.2961667 L29.1115,6.48083333 L33,10.3693333 L33,0 L22.6306667,0 L26.5191667,3.8885 L20.7038333,9.70383333 L23.2961667,12.2961667 Z M26.5191667,29.1115 L22.6306667,33 L33,33 L33,22.6306667 L29.1115,26.5191667 L23.2961667,20.7038333 L20.7038333,23.2961667 L26.5191667,29.1115 Z M9.70383333,20.7038333 L3.8885,26.5191667 L0,22.6306667 L0,33 L10.3693333,33 L6.48083333,29.1115 L12.2961667,23.2961667 L9.70383333,20.7038333 Z M6.48083333,3.8885 L10.3693333,0 L0,0 L0,10.3693333 L3.8885,6.48083333 L9.70383333,12.2961667 L12.2961667,9.70383333 L6.48083333,3.8885 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

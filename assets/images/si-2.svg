@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="31px" viewBox="0 0 38 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="One-Page-Template" transform="translate(-832.000000, -1448.000000)">
+            <g id="Group-15" transform="translate(315.000000, 1139.000000)">
+                <g id="Group-14" transform="translate(0.000000, 273.000000)">
+                    <g id="Group-11" transform="translate(404.000000, 0.000000)">
+                        <g id="Group-10" transform="translate(79.000000, 0.000000)">
+                            <g id="Group-7" transform="translate(28.000000, 28.700000)">
+                                <g id="camera">
+                                    <rect id="bound" x="0" y="0" width="49.6720158" height="47.6851351"></rect>
+                                    <path d="M10.3483366,13.9081644 L39.3236791,13.9081644 C41.6097705,13.9081644 43.4630138,15.6872779 43.4630138,17.8819257 L43.4630138,33.7769707 C43.4630138,35.9716185 41.6097705,37.750732 39.3236791,37.750732 L10.3483366,37.750732 C8.06224522,37.750732 6.20900197,35.9716185 6.20900197,33.7769707 L6.20900197,17.8819257 C6.20900197,15.6872779 8.06224522,13.9081644 10.3483366,13.9081644 Z M24.8360079,33.7769707 C29.4081907,33.7769707 33.1146772,30.2187437 33.1146772,25.8294482 C33.1146772,21.4401527 29.4081907,17.8819257 24.8360079,17.8819257 C20.2638251,17.8819257 16.5573386,21.4401527 16.5573386,25.8294482 C16.5573386,30.2187437 20.2638251,33.7769707 24.8360079,33.7769707 Z" id="Combined-Shape" fill="#FFD032" fill-rule="nonzero"></path>
+                                    <rect id="Rectangle" fill="#FFD032" opacity="0.3" x="18.6270059" y="7.94752252" width="12.4180039" height="3.97376126" rx="0.699999988"></rect>
+                                    <ellipse id="Oval-2" fill="#FFD032" opacity="0.3" cx="24.8360079" cy="25.8294482" rx="4.13933465" ry="3.97376126"></ellipse>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
