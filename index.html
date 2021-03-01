@@ -35,7 +35,9 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         <!-- mangefic popup css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
-
+        <!--date-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/css/tempusdominus-bootstrap-4.min.css" integrity="sha512-3JRrEUwaCkFUBLK1N8HehwQgu8e23jTH4np5NHOmQOobuC4ROQxFwFgBLTnhcnQRMs84muMh0PnnwXlPq5MGjg==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" />
         <!-- Color CSS -->
         <!-- Currently Using default color -->
         <!-- <link rel="stylesheet" href="assets/css/colors/red.css" title="red">
@@ -79,7 +81,7 @@
                                     <a class="nav-link" href="#section5">How it works</a>
                                 </li>    
                                 <li class="nav-item">
-                                    <a class="nav-link btn btn-fill" href="#section7">Get Started Now</a>
+                                    <a class="nav-link btn btn-fill" href="#section8">Book demo</a>
                                 </li>                           
                             </ul>
                         </div>
@@ -107,8 +109,8 @@
                                 <h2 class="main_heading wow fadeInUp">Welcome to iMS Systems</h2> 
                                 <p>Integrate your business operations, processes and compliance for easier management</p>
                                 <div class="ev-button wow fadeInUp">
-                                    <a href="#section7" class="btn btn-fill get-started">Get Started Now</a>   
-                                    <a href="" class="btn btn-stroke">Book demo</a>   
+                                    <a href="#section7" class="btn btn-fill">Get Started Now</a>   
+                                    <a href="#section8" class="btn btn-stroke book-demo">Book demo</a>   
                                 </div>
                             </div>
                         </div>
@@ -157,21 +159,21 @@
                             </div>
                             <div class="col-sm-6 col-lg-3">
                                 <div class="feature-item itme-color-3" id="pr-item3">
-                                    <div class="item-icon"><i class="fa icofont-mushroom"></i></div>
+                                    <div class="item-icon"><i class="fa icofont-discover-alt"></i></div>
                                     <h5>Contextual view of your organisation</h5>
                                     <p></p>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-3">
                                 <div class="feature-item itme-color-4" id="pr-item4">
-                                    <div class="item-icon"><i class="fa icofont-basketball-hoop"></i></div>
+                                    <div class="item-icon"><i class="fa icofont-dashboard"></i></div>
                                     <h5>Real time data and reporting</h5>
                                     <p></p>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-3">
                                 <div class="feature-item itme-color-5" id="pr-item1">
-                                    <div class="item-icon"><i class="fa icofont-swimmer"></i></div>
+                                    <div class="item-icon"><i class="fa icofont-chart-bar-graph"></i></div>
                                     <h5>Analytics and AI to provide insights</h5>
                                     <p></p>
                                 </div>
@@ -254,7 +256,7 @@
                                 </ul>
                             </div>
                             <div class="ev-button wow fadeInUp">
-                                <a href="" class="btn btn-fill get-started">Get Started Now</a>     
+                                <a href="#section7" class="btn btn-fill">Get Started Now</a>     
                                 <!-- <p>* A complete about-face in its core economy Amsterdams</p> -->
                             </div>
                         </div>
@@ -354,8 +356,8 @@
                                 </div>
                                 <div class="col-sm-12 col-lg-6">
                                     <div class="ev-button center wow fadeInUp">
-                                        <a href="" class="btn btn-fill get-started">Get Started Now</a>   
-                                        <a href="" class="btn btn-stroke">Book demo</a>   
+                                        <a href="#section7" class="btn btn-fill get-started">Get Started Now</a>   
+                                        <a href="#section8" class="btn btn-stroke  book-demo">Book demo</a>   
                                     </div>
                                 </div>
                             </div>
@@ -449,52 +451,67 @@
                     
                 </section>
 
-                <div class="cta" id='contact-form' >
-                    <div class="container">
-                        <div class="row mini-section-separator relative">
-                            <div class="overlay-img">
-                                <div class="each-color image-bg" style="background-image:url(assets/images/cta-overlay.svg)"></div>
-                            </div>
-                            <div class="cta-inner col-sm-12">
-                                <div class="row vertical-middle-content">
-                                    <div class="col-sm-12 col-lg-2">
-                                        
-                                    </div>
-                                    <div class="col-lg-8">
-                                        <form>
-                                        <div class="form-group">
-                                            <label class="text-white" for="">Name</label>
-                                            <input id='person-name' type="text" class="form-control bg-white" id="" placeholder="Your name here...">
+                <section class="ev-process relative section5" id="section8">
+                    <div class="cta mb-5" id='contact-form' >
+                        <div class="container">
+                            <div class="row mini-section-separator relative">
+                                <div class="overlay-img">
+                                    <div class="each-color image-bg" style="background-image:url(assets/images/cta-overlay.svg)"></div>
+                                </div>
+                                <div class="cta-inner col-sm-12">
+                                    <div class="row vertical-middle-content">
+                                        <div class="col-sm-12 col-lg-3">
+                                            
                                         </div>
-                                        <div class="form-group">
-                                            <label class="text-white" for="">Email address</label>
-                                            <input id='person-email' type="email" class="form-control bg-white" id="" placeholder="name@example.com">
+                                        <div class="col-lg-6">
+                                            <form>
+                                            <h2 class="text-white mb-4">Book demo</h2>
+                                            <div class="form-group">
+                                                <label class="text-white" for="">Name (required)</label>
+                                                <input required id='person-name' type="text" class="form-control bg-white"  placeholder="Your name here...">
+                                            </div>
+                                            <div class="text-white" class="form-group">
+                                                <label for="">Job Title (required)</label>
+                                                <input required id='person-title' type="text" class="form-control bg-white"  placeholder="Title here...">
+                                            </div>
+                                            <div class="text-white" class="form-group">
+                                                <label  for="">Organisation (required)</label>
+                                                <input required id='person-org' type="text" class="form-control bg-white"  placeholder="Organisation name...">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="text-white" for="">Email address (required)</label>
+                                                <input required id='person-email' type="email" class="form-control bg-white"  placeholder="name@example.com">
+                                            </div>
+                                            <div class="form-group text-white">
+                                                <label for="exampleFormControlTextarea1">Book date (required)</label>
+                                                <div class="input-group date" id="datetimepicker" data-target-input="nearest">
+                                                    
+                                                    <input required id='book-date' type="text" class="form-control datetimepicker-input bg-white" data-target="#datetimepicker" placeholder="Book a date ..." />
+                                                    <div class="input-group-append" data-target="#datetimepicker" data-toggle="datetimepicker">
+                                                        <span class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="text-white" class="form-group">
+                                                <label for="exampleFormControlTextarea1">Additional information (optional)</label>
+                                                <input type="text" class="form-control bg-white" id='add-info' placeholder="Add more information...">
+                                                <!-- <textarea  style="resize: none" class="form-control bg-white" id="" rows="3"></textarea> -->
+                                            </div>
+                                            <div class="text-white">
+                                                <button type="button" id='book-btn' class="btn btn-primary btn-lg">Submit</button>
+                                            </div>
+                                           
+                                            </form>
                                         </div>
-                                        <div class="text-white" class="form-group">
-                                            <label for="">Title</label>
-                                            <input id='person-title' type="text" class="form-control bg-white" id="" placeholder="Title here...">
+                                        <div class="col-sm-12 col-lg-3">
+                                            
                                         </div>
-                                        <div class="text-white" class="form-group">
-                                            <label id='person-org' for="">Organisation</label>
-                                            <input type="email" class="form-control bg-white" id="" placeholder="Organisation name...">
-                                        </div>
-                                        <div class="text-white" class="form-group">
-                                            <label for="exampleFormControlTextarea1">Additional information</label>
-                                            <textarea class="form-control bg-white" id="exampleFormControlTextarea1" rows="10"></textarea>
-                                        </div>
-                                        <div class="text-white">
-                                            <button type="button" id='book-btn' class="btn btn-primary btn-lg">Submit</button>
-                                        </div>
-                                        </form>
-                                    </div>
-                                    <div class="col-sm-12 col-lg-2">
-                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
                 
     
             <!--
@@ -612,11 +629,24 @@
 	<script src='assets/plugins/js/TimelineMax.min.js'></script>
     <script src="assets/plugins/js/scrollmagic.min.js"></script>
     <script src="assets/plugins/js/animation.gsap.min.js"></script>
+    <!--Sweet alert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--date-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js" integrity="sha512-k6/Bkb8Fxf/c1Tkyl39yJwcOZ1P4cRrJu77p83zJjN2Z55prbFHxPs9vN7q3l3+tSMGPDdoH51AEU8Vgo1cgAA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous"></script>
     <!-- Magnific Popup core JS file -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous"></script>
     <!-- Custom Scripts-->
     <script src="assets/js/custom-scripts.js"></script> 
     <script src="assets/js/contactService.js"></script> 
+    <script>
+        if ($("#datetimepicker").length) {
+            $('#datetimepicker').datetimepicker({
+                format: 'D/M/Y'
+            });
+        }
+    </script>
 
 </body>
 </html>
