@@ -19,34 +19,66 @@ async function requestDemo(){
     return swal({
         title: "Alert",
         text: "Please fill the required fields",
-        icon: "info",
+        icon: "warning",
     });
 
     try{
-        let  response = await fetch("http://localhost:5000/api/contactims",{
-            body: formData,
-            method: "POST",
+        let  response = await axios.post("https://ims-backend.herokuapp.com/api/contactims",{
+            name:personName ,
+            email:personEmail ,
+            jobTitle:personTile ,
+            organisationName:personOrg ,
+            additionalInformation:addInfo  ,
+            bookedDate:bookDate 
         })
-        if(response.status===200){
-            swal({
-                title: "Thank You",
-                text: "Meeting book successfully.",
-                icon: "success",
-            });
-        }else{
-            swal({
-                title: "Alert",
-                text: "Server error occured",
-                icon: "info",
-            });
-        }
+        swal({
+            title: "Thank You",
+            text: "Meeting booked successfully.",
+            icon: "success",
+        });
+        $("#person-name").val('')
+        $("#person-email").val('')
+        $("#person-title").val('')
+        $("#person-org").val('')
+        $("#add-info").val('')
+        $("#book-date").val('')
     }catch(ex){
-        console.log(ex)
+        console.log(ex.response)
+        swal({
+            title: "Error",
+            text: "Server error occured",
+            icon: "error",
+        });
     }
 }
  
 
 $('#book-btn').click(requestDemo)
+$('#package-sms').click(e=>{
+    e.preventDefault()
+    swal({
+        title: "We are working",
+        text: "System will be launched soon",
+        icon: "info",
+    });
+})
+$('#package-isms').click(e=>{
+    e.preventDefault()
+    swal({
+        title: "We are working",
+        text: "System will be launched soon",
+        icon: "info",
+    });
+})
+$('#package-qms').click(e=>{
+    e.preventDefault()
+    swal({
+        title: "We are working",
+        text: "System will be launched soon",
+        icon: "info",
+    });
+})
+
 
 // let html =  
 // `
