@@ -26,7 +26,7 @@ async function requestDemo(){
         })
         swal({
             title: "Thank You",
-            text: `Meeting's been booked successfully on ${$("#book-date").val().trim()}. One of our experts will confirm.`,
+            text: `For your interest in iMS Systems. Your demo has been booked for ${$("#book-date").val().trim()}.`,
             icon: "success",
         });
         $("#person-name").val('')

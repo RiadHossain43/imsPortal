@@ -40,7 +40,7 @@ async function requestService(){
         })
         swal({
             title: "Thank You",
-            text: "One of the experts  will be in contcat with you soon",
+            text: "For your interest in iMS Systems. One of our experts will get in contact to discuss next steps",
             icon: "success",
         });
         $("#person-name").val('')
