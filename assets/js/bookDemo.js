@@ -40,7 +40,7 @@ async function requestDemo(){
         console.log(ex,ex.response)
         swal({
             title: "Error",
-            text: "Server error occured",
+            text:ex.response.data.msg || "Server error occured",
             icon: "error",
         });
     }
@@ -120,6 +120,7 @@ function setPopUp(element){
         items: {
             src: setForm(formPayload),
         },
+       
         fixContentPos: true, 
         closeBtnInside: false, 
         preloader: false, 
@@ -131,6 +132,7 @@ function setPopUp(element){
                     let {data:closedDates} = await  axios.get(`${API_BASE_URL}/api/contactims/bookeddates`)
                     var DATE_RFC2822 = "ddd, DD MMM YYYY HH:mm:ss ZZ";
                     $('#datetimepicker').datetimepicker({
+                        minDate:new Date(),
                         format: 'D/M/Y',
                         disabledDates:closedDates.map(booking=>moment(booking.date).format(DATE_RFC2822))
                     });
