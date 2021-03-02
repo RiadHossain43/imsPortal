@@ -128,11 +128,11 @@ function setPopUp(element){
         callbacks:{
             open:async function(){
                 try{
-                    let {data:bookings} = await  axios.get(`${API_BASE_URL}/api/contactims/bookeddates`)
+                    let {data:closedDates} = await  axios.get(`${API_BASE_URL}/api/contactims/bookeddates`)
                     var DATE_RFC2822 = "ddd, DD MMM YYYY HH:mm:ss ZZ";
                     $('#datetimepicker').datetimepicker({
                         format: 'D/M/Y',
-                        disabledDates:bookings.map(booking=>moment(booking.bookedDate).format(DATE_RFC2822))
+                        disabledDates:closedDates.map(booking=>moment(booking.date).format(DATE_RFC2822))
                     });
                 }catch(ex){
                         console.log(ex)
