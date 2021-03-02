@@ -26,7 +26,7 @@ async function requestDemo(){
         })
         swal({
             title: "Thank You",
-            text: `Meeting booked successfully. Schedule is on ${$("#book-date").val().trim()}`,
+            text: `Meeting's been booked successfully on ${$("#book-date").val().trim()}. One of our experts will confirm.`,
             icon: "success",
         });
         $("#person-name").val('')
