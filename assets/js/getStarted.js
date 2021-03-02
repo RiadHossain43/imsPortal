@@ -77,7 +77,7 @@ function setForm(payLoad){
                         <h2 class='text-white text-center'>Let's talk !!!</h2>
                         <div class="form-group">
                             <label class="text-white" for="">Requested service</label>
-                            <input id='service' disabled type="text" class="form-control bg-white text-info" id="" value="Reuest for ${payLoad.service}">
+                            <input id='service' disabled type="text" class="form-control bg-white text-info" id="" value="Request for ${payLoad.service}">
                         </div>
                         ${
                             payLoad.service === "package-iso"? 
