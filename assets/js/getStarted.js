@@ -1,6 +1,7 @@
 async function requestService(){
     let personName = $("#person-name").val().trim()
     let personEmail = $("#person-email").val().trim()
+    let personPhone = $("#person-phone").val().trim()
     let personTile = $("#person-title").val().trim()
     let personOrg = $("#person-org").val().trim()
     let service =  $("#service").val().trim()
@@ -26,6 +27,7 @@ async function requestService(){
         let  response = await axios.post(`${API_BASE_URL}/api/contactims/getstarted`,{
             name:personName ,
             email:personEmail ,
+            phone:personPhone,
             jobTitle:personTile ,
             organisationName:personOrg ,
             service,
@@ -134,6 +136,10 @@ function setForm(payLoad){
                         <div class="form-group">
                             <label class="text-white" for="">Email address</label>
                             <input id='person-email' type="email" class="form-control bg-white" id="" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="text-white" for="">Contact number (optional)</label>
+                            <input required id='person-phone' type="number" class="form-control bg-white"  placeholder="Include with country code...">
                         </div>
                         <div class="text-white" class="form-group">
                             <label for="">Title</label>

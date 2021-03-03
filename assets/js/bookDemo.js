@@ -2,6 +2,7 @@
 async function requestDemo(){
     let personName = $("#person-name").val().trim()
     let personEmail = $("#person-email").val().trim()
+    let personPhone = $("#person-phone").val().trim()
     let personTile = $("#person-title").val().trim()
     let personOrg = $("#person-org").val().trim()
     let addInfo =  $("#add-info").val().trim()
@@ -19,6 +20,7 @@ async function requestDemo(){
         let  response = await axios.post(`${API_BASE_URL}/api/contactims/bookdate`,{
             name:personName ,
             email:personEmail ,
+            phone:personPhone,
             jobTitle:personTile ,
             organisationName:personOrg ,
             additionalInformation:addInfo  ,
@@ -78,6 +80,10 @@ function setForm(payLoad){
                             <div class="form-group">
                                 <label class="text-white" for="">Email address (required)</label>
                                 <input required id='person-email' type="email" class="form-control bg-white"  placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-white" for="">Contact number (optional)</label>
+                                <input required id='person-phone' type="number" class="form-control bg-white"  placeholder="Include with country code...">
                             </div>
                             <div class="form-group text-white">
                                 <label for="">Book date (required)</label>
